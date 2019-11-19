@@ -22,7 +22,7 @@ public class LoginController extends HttpServlet {
 		String email = request.getParameter("email");
 		String senha = request.getParameter("senha");
 
-		if (email.equals("gab@gmail.com") && senha.equals("0000")) {
+		if (email.equals("gab@iesp.com") && senha.equals("123")) {
 			request.setAttribute("login", email);
 			RequestDispatcher rd = request.getRequestDispatcher("home.jsp");
 
